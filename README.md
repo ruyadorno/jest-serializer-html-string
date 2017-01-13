@@ -18,7 +18,7 @@ function renderElem(props) {
 	`;
 }
 
-expect(renderElem({ img: 'foo.png' })).toMatchSnapshot();
+expect(renderElem({ img: '/foo.png' })).toMatchSnapshot();
 ```
 
 ### Produces beautified snapshot:
