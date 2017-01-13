@@ -1,0 +1,47 @@
+{
+  "name": "jest-serializer-html-string",
+  "version": "1.0.0",
+  "description": "A better Jest snapshot serializer for plain html strings",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint index.js",
+    "pretest": "npm run lint",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruyadorno/jest-serializer-html-string.git"
+  },
+  "keywords": [
+    "jest",
+    "snapshot",
+    "serializer",
+    "snapshotSerializer",
+    "html",
+    "string"
+  ],
+  "author": {
+    "name": "Ruy Adorno",
+    "url": "ruyadorno.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruyadorno/jest-serializer-html-string/issues"
+  },
+  "homepage": "https://github.com/ruyadorno/jest-serializer-html-string#readme",
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-xo": "^0.17.0",
+    "jest": "^18.1.0"
+  },
+  "dependencies": {
+    "html": "^1.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "snapshotSerializers": ["./index.js"]
+  }
+}
