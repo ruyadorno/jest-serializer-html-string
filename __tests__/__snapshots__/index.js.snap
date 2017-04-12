@@ -1,3 +1,13 @@
+exports[`jest-serializer-html-string should not reformat something that is not an html string 1`] = `2`;
+
+exports[`jest-serializer-html-string should not reformat something that is not an html string 2`] = `true`;
+
+exports[`jest-serializer-html-string should not reformat something that is not an html string 3`] = `Array []`;
+
+exports[`jest-serializer-html-string should not reformat something that is not an html string 4`] = `Object {}`;
+
+exports[`jest-serializer-html-string should not reformat something that is not an html string 5`] = `"Non html tags strings"`;
+
 exports[`jest-serializer-html-string should reformat a given html 1`] = `
 <body>
   <div class="home active">
