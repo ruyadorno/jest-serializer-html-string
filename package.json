@@ -38,10 +38,13 @@
     "jest": "^18.1.0"
   },
   "dependencies": {
-    "html": "^1.0.0"
+    "html": "^1.0.0",
+    "is-html": "^1.1.0"
   },
   "jest": {
     "testEnvironment": "node",
-    "snapshotSerializers": ["./index.js"]
+    "snapshotSerializers": [
+      "./index.js"
+    ]
   }
 }

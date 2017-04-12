@@ -14,5 +14,12 @@ describe('jest-serializer-html-string', () => {
 	it('should reformat a given html', () => {
 		expect(unfmtHtml).toMatchSnapshot();
 	});
-});
 
+	it('should not reformat something that is not an html string', () => {
+		expect(2).toMatchSnapshot();
+		expect(true).toMatchSnapshot();
+		expect([]).toMatchSnapshot();
+		expect({}).toMatchSnapshot();
+		expect('Non html tags strings').toMatchSnapshot();
+	});
+});
